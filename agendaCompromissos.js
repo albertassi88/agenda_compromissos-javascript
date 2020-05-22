@@ -72,7 +72,7 @@ function deletarCadastros(del){
 function removerSpan(){
     let span = document.querySelectorAll("span");
     let card = document.querySelector(".card");
-   
+ 
     for(let i=0; i<span.length; i++){
         card.removeChild(span[i]);
     }
