@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale-1, shrink-to-fit=no">
+        <meta charset="utf-8">
+        <title>Agenda de Compromissos</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </head>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header"><center>Agenda de Compromissos</center></h1>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                            <div class="col-auto my-0">
+                                <select class="custom-select mr-sm-2" id="horario">
+                                    <option disabled selected value="">Horário</option>
+                                 
+                                </select>
+                            </div>
+                        <input type="text" class="form-control" id="texto" placeholder="Digite o seu compromisso" autofocus>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" id="botao">Cadastrar</button>
+                        </div>
+                    </div>
+                    <ul id="lista" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+        <script src="agendaCompromissos.js"></script>
+    </body>
+</html>
